@@ -1,0 +1,155 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+    scroll-behavior: smooth;
+}
+
+.input-field {
+    width: 40%;
+    padding: 10px 0 10px 0;
+}
+
+h2 {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 30px;
+}
+
+/* Navbar Section */
+
+h1 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    box-shadow: 0 1px 8px #ddd;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.nav-title {
+    margin-right: auto;
+    padding-left: 5px;
+}
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+    font-family: 'Roboto', sans-serif;
+}
+
+header a:hover {
+    text-decoration: underline black;
+}
+
+.btn {
+    background: #FDC830;
+    background-image: -webkit-linear-gradient(top, #FDC830, #f37335);
+    background-image: -moz-linear-gradient(top, #FDC830, #f37335);
+    background-image: -ms-linear-gradient(top, #FDC830, #f37335);
+    background-image: -o-linear-gradient(top, #FDC830, #f37335);
+    background-image: linear-gradient(to bottom, #FDC830, #f37335);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #f37335;
+    text-decoration: none;
+}
+
+footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/* Home Section */
+
+.home-container {
+    padding: 180px;
+    background-color: #3FA796;
+    text-align: center;
+    line-height: 3em;
+    white-space: nowrap;
+}
+
+/* About Section */
+
+.about-container {
+    padding: 7% 15%;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.about-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-box {
+    padding: 5%;
+}
+
+.about-fa {
+    size: 20px;
+    margin-bottom: 1rem;
+}
+
+.about-fa:hover {
+    color: #FFBD35;
+}
+
+/* Coffee Pricing Section */
+
+.pricing-container {
+    padding: 3% 15% 7%;
+    background-color: #3FA796;
+}
+
+/* Contact Section */
+
+.contact-container {
+    padding: 3% 15% 7%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Footer Section */
+
+footer {
+    padding: 3% 15% 7%;
+    background-color: #FFBD35;
+}
